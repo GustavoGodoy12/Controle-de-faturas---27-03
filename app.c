@@ -1,5 +1,4 @@
 /*
-  Sistema de Gerenciamento de Faturas de Pagamento em Árvore Binária de Busca (BST)
 
   Este código faz:
    - Inserir faturas
@@ -203,14 +202,14 @@ int main(void)
 
     do {
         // Menu de opções
-        printf("\n========== MENU ==========\n");
-        printf("[1] Inserir Fatura\n");
-        printf("[2] Buscar Fatura\n");
-        printf("[3] Atualizar Status de Fatura\n");
-        printf("[4] Remover Fatura\n");
-        printf("[5] Exibir Todas as Faturas\n");
-        printf("[0] Sair\n");
-        printf("Escolha: ");
+        printf("\n- Controle de faturas -\n");
+        printf("1- Inserir Fatura\n");
+        printf("2- Buscar Fatura\n");
+        printf("3- Atualizar Status de Fatura\n");
+        printf("4- Remover Fatura\n");
+        printf("5- Exibir Todas as Faturas\n");
+        printf("0- Sair\n");
+        printf("opcao: ");
         scanf("%d", &Opcao);
         getchar(); // Para consumir o "enter" deixado pelo scanf
 
